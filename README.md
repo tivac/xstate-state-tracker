@@ -38,3 +38,7 @@ const track = tracker((id, value) => console.log(`${id} :: ${JSON.stringify(valu
 // Track the interpreter instance and respond on all changes
 track(service);
 ```
+
+## Context
+
+While developing it's probably better to use `@xstate/inspect` via statecharts.io than this package as it'll give you a *much* better overview of what is happening. You can't always attach the visualizer once your code is deployed though and it can be very valuable to know exactly the state your app was in when an error happened.
