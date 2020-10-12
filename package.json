@@ -1,6 +1,6 @@
 {
   "name": "xstate-state-tracker",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Log out all xstate state transitions",
   "author": "Pat Cavit <npm@patcavit.com>",
   "license": "MIT",
