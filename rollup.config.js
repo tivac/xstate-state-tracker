@@ -12,11 +12,6 @@ const input = "./src/logger.js";
 module.exports = {
     input,
 
-    plugins : [
-        require("rollup-plugin-node-resolve")(),
-        require("rollup-plugin-commonjs")(),
-    ],
-
     output : [{
         file      : pkg.main,
         format    : "cjs",
