@@ -33,10 +33,10 @@ const statechart = Machine({
 const service = interpret(statechart);
 
 // Callback function will be invoked with a machine path as well as the current machine state object
-const track = tracker((id, value) => console.log(`${id} :: ${JSON.stringify(value)}`));
+const logger = (id, value) => console.log(`${id} :: ${JSON.stringify(value)}`);
 
 // Track the interpreter instance and respond on all changes
-track(service);
+const track = tracker(service, logger);
 ```
 
 ## Context
