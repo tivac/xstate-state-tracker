@@ -23,12 +23,6 @@ module.exports = {
 
             // with() is so dangerous
             "WithStatement",
-
-            // Object spread
-            {
-                selector : "ExperimentalSpreadProperty",
-                message  : "Object spread doesn't work in all environments",
-            },
         ],
     },
 };
