@@ -1,0 +1,10 @@
+{
+    "eslint.useFlatConfig": true,
+    
+    // Javascript
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		},
+	},
+}
